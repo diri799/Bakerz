@@ -56,8 +56,10 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
+        <div className="marquee">
         <p>{currentDate}, {currentTime}</p>
         <p>© 2024 Bakerz Bites. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );

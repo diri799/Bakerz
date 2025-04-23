@@ -97,3 +97,20 @@
     justify-content: center;
   }
 } 
+.marquee {
+  white-space: nowrap;
+  display: inblock;
+  animation: scroll-left 20s linear infinite;
+  font-size: 14px;
+  color: #d4a373;
+  padding-left: 100%; 
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

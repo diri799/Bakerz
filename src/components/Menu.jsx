@@ -272,6 +272,7 @@ const Menu = () => {
   return (
     <div className="products-page">
       <div className="filters">
+        <br />
         <div className="search-bar">
           <input
             type="text"
