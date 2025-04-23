@@ -1,0 +1,52 @@
+.visitor-counter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: white;
+  white-space: nowrap;
+}
+
+.visitor-icon {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.visitor-icon svg {
+  width: 1em;
+  height: 1em;
+}
+
+.visitor-count {
+  font-weight: 500;
+  font-size: 0.85rem;
+  min-width: 20px;
+  text-align: center;
+}
+
+.visitor-label {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 1024px) {
+  .visitor-counter {
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .visitor-counter {
+    font-size: 0.85rem;
+  }
+  
+  .visitor-icon,
+  .visitor-count {
+    font-size: 0.8rem;
+  }
+  
+  .visitor-label {
+    font-size: 0.75rem;
+  }
+} 
