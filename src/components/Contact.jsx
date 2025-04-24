@@ -3,7 +3,7 @@ import '../styles/Contact.css';
 
 const Contact = () => {
   return (
-    <div className="contact-page">
+    <div className="contact-page">  <br /> <br /> 
       <h1>Contact Us</h1>
       <div className="contact-content">
         <div className="contact-info">
@@ -11,6 +11,10 @@ const Contact = () => {
           <p>Email: info@bakerzbites.com</p>
           <p>Phone: (555) 123-4567</p>
           <p>Address: 123 Baker Street, Sweetville, BK 12345</p>
+        
+          
+          
+
         </div>
         <div className="contact-form">
           <h2>Send us a Message</h2>

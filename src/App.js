@@ -8,7 +8,7 @@ import Pastries from './components/Pastries';
 import Cookies from './components/Cookies';
 import Merchandise from './components/Merchandise';
 import Gallery from './components/Gallery';
-import About from './components/About';
+import About from './components/About'; 
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
