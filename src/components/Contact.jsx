@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
+import Bob from '../assets/Bob.png';
+import alice from '../assets/alice.png';
 import '../styles/Contact.css';
 
 const customerCare = [
   {
     name: 'Alice Johnson',
     email: 'alice@bakerzbites.com',
-    avatar: '/avatars/alice.jpg',
+    avatar: 'alice',
     role: 'Customer Care Lead',
   },
   {
     name: 'Bob Martinez',
     email: 'bob@bakerzbites.com',
-    avatar: '/avatars/bob.jpg',
+    avatar: 'BOB',
     role: 'Customer Care Rep',
   }
 ];
