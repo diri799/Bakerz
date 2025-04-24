@@ -7,13 +7,13 @@ const customerCare = [
   {
     name: 'Alice Johnson',
     email: 'alice@bakerzbites.com',
-    avatar: 'alice',
+    avatar: alice,
     role: 'Customer Care Lead',
   },
   {
     name: 'Bob Martinez',
     email: 'bob@bakerzbites.com',
-    avatar: 'Bob',
+    avatar: Bob,
     role: 'Customer Care Rep',
   }
 ];
