@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="profiles">
           {customerCare.map((cc) => (
             <div key={cc.email} className="profile-card">
-              <img 
+            <img 
                 src={cc.avatar} 
                 alt={cc.name} 
                 className="avatar" 
@@ -38,6 +38,7 @@ const Contact = () => {
                   e.target.src = 'https://via.placeholder.com/150'; // Fallback image
                 }}
               />
+              <div className="profile-name">{cc.name}</div>
               {/* ... rest of profile card ... */}
             </div>
           ))}
